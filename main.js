@@ -6,7 +6,7 @@ $(document).ready(function(){
 })
 var ldelay;
 var betw={};
-document.querySelector('.search-link').addEventListener('touchstart', function(event) {
+document.querySelector('.box-black').addEventListener('touchstart', function(event) {
 //event.preventDefault();
 //event.stopPropagation();
 
@@ -16,7 +16,7 @@ betw.x=event.changedTouches[0].pageX;
 betw.y=event.changedTouches[0].pageY;
 }, false);
 /*Ловим отпускание пальца*/
-document.querySelector('.search-link').addEventListener('touchend', function(event) {
+document.querySelector('.box-black').addEventListener('touchend', function(event) {
 var pdelay=new Date();
 
 if(
