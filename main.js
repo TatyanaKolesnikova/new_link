@@ -22,5 +22,7 @@ var pdelay=new Date();
 if(
 (pdelay.getTime()-ldelay.getTime())>500){
 alert('222222');
+}else{
+	window.location.href = 'https://skillbox.ru';
 }
 }, false);
